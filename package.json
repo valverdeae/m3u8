@@ -1,0 +1,15 @@
+{
+  "name": "m3u8-vercel-proxy",
+  "version": "1.0.0",
+  "description": "Auto-updating M3U8 stream proxy with .txt support",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "undici": "^5.26.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
